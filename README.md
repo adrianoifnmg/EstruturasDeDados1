@@ -6,7 +6,7 @@
 
 ## Ementa
 * Introdução à Programação Estruturada com Linguagem C: Sintaxe, Tipos Primitivos de Dados, Estruturas Condicionais e de Repetição;
-* Estruturas de Dados Compostas Unidimensional – Vetores, Multidimensional – Matrizes, e Heterogêneas – Structs; 
+* Estruturas de Dados Básicas, Arrays: Vetores e Matrizes, Structs; 
 * Algoritmos de Ordenação e Pesquisa; 
 * Modularização, Funções, Parâmetros e Recursividade; 
 * Alocação Dinâmica em Memória, Listas Encadeadas, Pilhas, Filas, Listas Circulares, Duplamente Encadeadas e outras Generalizações; 
