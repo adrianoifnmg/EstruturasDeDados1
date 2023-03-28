@@ -18,3 +18,9 @@
 * Prova 2 - 30 Pontos
 * Prova 3 - 30 Pontos
 * Resolução de Exercícios - 10 Pontos
+
+## Bibliografia
+
+* ZIVIANI, N. **Projeto de Algoritmos com Implementação em Pascal e C**, Editora Pioneira, 1992.
+* DAMAS, Luis. **Linguagem C**. 10ª Edição. LTC Editora. 2007.
+* TENEMBAUM, Aaron M. **Estrutura de Dados usando C**, Ed. Pearson Education do Brasil, Ltda, 1995.
