@@ -1,4 +1,4 @@
 #!/bin/bash
-git add *
+git add .
 git commit -m "ED1"
 git push origin master
