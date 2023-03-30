@@ -1,8 +1,7 @@
-# Estruturas de Dados 1 / BSI / IFNMG Januária
- 
-> **Objetivo Geral:** Promover no discente o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção e construção de algoritmos eficientes para resolução de problemas computacionais.
+# :technologist: Estruturas de Dados 1 / BSI / IFNMG Januária
 
-> **Objetivos Específicos:** Oferecer aos discentes o aprendizado de técnicas utilizadas no desenvolvimento e implementação de algoritmos estruturados, propiciando uma visão crítica e sistemática na resolução de problemas; Assimilar uma linguagem de programação como ferramenta de implementação dos algoritmos desenvolvidos; Analisar problemas em nível computacional e determinar, passo a passo, uma solução viável; Desenvolver a lógica computacional para a resolução dos problemas propostos; Codificar corretamente, em alguma linguagem de programação, a lógica computacional elaborada.
+> **Objetivo Geral:** Promover no discente o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção e construção de algoritmos eficientes para resolução de problemas computacionais...
+<p align="center"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></p>
 
 ## Ementa
 * Introdução à Programação Estruturada com Linguagem C: Sintaxe, Tipos Primitivos de Dados, Estruturas Condicionais e de Repetição;
