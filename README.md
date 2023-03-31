@@ -1,7 +1,7 @@
 # :technologist: Estruturas de Dados 1 / BSI / IFNMG Januária
 
 [![image](https://img.shields.io/badge/Arquivos-155b29?style=for-the-badge&logo=PowerShell&logoColor=white
-)](https://github.com/adrianoifnmg/EstruturasDeDados1/tree/main/public) 
+)](https://github.com/adrianoifnmg/EstruturasDeDados1/tree/master/public) 
 [![image](https://img.shields.io/badge/WhatsApp-4053D6?style=for-the-badge&logo=whatsapp&logoColor=white
 )](https://chat.whatsapp.com/BX65UXXM5E87TjS72CzxZt)
 [![image](https://img.shields.io/badge/Canal_Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@estruturasdedadosi9960) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
