@@ -7,7 +7,6 @@
 [![image](https://img.shields.io/badge/Canal_Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@estruturasdedadosi9960) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
 )](#link-links-úteis)
 
-
 > **Objetivo Geral:** Promover no discente o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção de algoritmos eficientes para resolução de problemas computacionais...
 <p align="center"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></p>
 
@@ -18,6 +17,16 @@
 * Modularização, Funções, Parâmetros e Recursividade; 
 * Alocação Dinâmica em Memória, Listas Encadeadas, Pilhas, Filas, Listas Circulares, Duplamente Encadeadas e outras Generalizações; 
 * Persistência em Arquivos de Dados.
+
+## :computer: Ambiente
+
+<p style="vertical-align: middle"> 
+
+[<img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/mint.png" height="52">](https://linuxmint.com/) 
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40">](https://gcc.gnu.org/) 
+[<img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/geany.png" height="45">](https://www.geany.org/) 
+
+</p>
 
 ## :memo: Avaliação
 
