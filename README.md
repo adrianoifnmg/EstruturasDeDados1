@@ -20,13 +20,9 @@
 
 ## :computer: Ambiente
 
-<p style="vertical-align: middle"> 
-
-[<img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/mint.png" height="52">](https://linuxmint.com/) 
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40">](https://gcc.gnu.org/) 
+[<img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/mint.png" height="45">](https://linuxmint.com/) 
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="44">](https://gcc.gnu.org/) 
 [<img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/geany.png" height="45">](https://www.geany.org/) 
-
-</p>
 
 ## :memo: Avaliação
 
