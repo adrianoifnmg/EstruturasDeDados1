@@ -8,7 +8,7 @@
 )](#link-links-úteis)
 
 > **Objetivo Geral:** Promover no discente o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção de algoritmos eficientes para resolução de problemas computacionais...
-<p align="center"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></p>
+<p align="center"><a href="#"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></a></p>
 
 ## :dart: Ementa
 * Introdução à Programação Estruturada com Linguagem C: Sintaxe, Tipos Primitivos de Dados, Estruturas Condicionais e de Repetição;
