@@ -46,3 +46,5 @@
 * [Linked List Animation](https://www.cs.usfca.edu/~galles/visualization/QueueLL.html)
 * [Livro: Projeto de Algoritmos em C](https://www.ime.usp.br/~pf/algoritmos/index.html)
 * [Beecrowd - Maratona de Programação](https://www.beecrowd.com.br/judge/pt/login)
+
+## [![vader](https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/vader2.gif)](#)
