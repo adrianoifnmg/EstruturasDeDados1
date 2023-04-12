@@ -1,4 +1,4 @@
-# :technologist: 🅴🆂🆃🆁🆄🆃🆄🆁🅰🆂 🅳🅴 🅳🅰🅳🅾🆂 ➊
+# 🅴🆂🆃🆁🆄🆃🆄🆁🅰🆂 🅳🅴 🅳🅰🅳🅾🆂 ➊
 [![image](https://img.shields.io/badge/Arquivos-4053D6?style=for-the-badge&logo=PowerShell&logoColor=white
 )](https://github.com/adrianoifnmg/EstruturasDeDados1/tree/master/public) 
 [![image](https://img.shields.io/badge/WhatsApp-155b29?style=for-the-badge&logo=whatsapp&logoColor=white
