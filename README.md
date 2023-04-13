@@ -4,7 +4,7 @@
 [![image](https://img.shields.io/badge/WhatsApp-155b29?style=for-the-badge&logo=whatsapp&logoColor=white
 )](https://chat.whatsapp.com/BX65UXXM5E87TjS72CzxZt)
 [![image](https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@estruturasdedadosi9960) [![image](https://img.shields.io/badge/Calendário-3b71c6?style=for-the-badge&logo=GoogleCalendar&logoColor=white
-)](https://calendar.google.com/calendar/embed?src=1kcpaqfkjqjk7mj943baespn10%40group.calendar.google.com&ctz=America%2FSao_Paulo) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
+)](https://calendar.google.com/calendar/embed?src=1kcpaqfkjqjk7mj943baespn10@group.calendar.google.com&src=hhtmsj9epvmqsdpn27sfolp688@group.calendar.google.com&ctz=America%2FSao_Paulo) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
 )](#link-links-úteis)
 
 > **Objetivo Geral:** Promover no discente o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção de algoritmos eficientes para resolução de problemas computacionais...
