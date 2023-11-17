@@ -7,7 +7,7 @@
 )](https://calendar.google.com/calendar/embed?src=1kcpaqfkjqjk7mj943baespn10@group.calendar.google.com&src=hhtmsj9epvmqsdpn27sfolp688@group.calendar.google.com&ctz=America%2FSao_Paulo) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
 )](#link-links-úteis)
 
-> **Objetivo Geral:** Promover o desenvolvimento da criatividade, abstração e o raciocínio lógico aplicados à concepção de algoritmos e estruturas de dados eficientes para resolução de problemas computacionais...
+> **Objetivo Geral:** Promover o desenvolvimento da abstração, raciocínio lógico e criatividade aplicados à concepção de algoritmos e estruturas de dados eficientes para resolução de problemas computacionais...
 <p align="center"><a href="#"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></a></p>
 
 ## :dart: Ementa
