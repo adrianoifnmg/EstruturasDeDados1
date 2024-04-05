@@ -44,6 +44,7 @@
 * [xSortLab](https://math.hws.edu/eck/js/sorting/xSortLab.html)
 * [Sorting Animation](https://www.toptal.com/developers/sorting-algorithms)
 * [Linked List Animation](https://www.cs.usfca.edu/~galles/visualization/QueueLL.html)
+* [O que é Linux?](https://www.youtube.com/watch?v=CT6BZBzbpWA)
 * [Livro: Projeto de Algoritmos em C](https://www.ime.usp.br/~pf/algoritmos/index.html)
 * [Beecrowd - Maratona de Programação](https://www.beecrowd.com.br/judge/pt/login)
 
