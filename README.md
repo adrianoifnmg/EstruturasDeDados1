@@ -40,6 +40,7 @@
 ## :link: Links Úteis
 
 * [Compilador Online](https://www.programiz.com/c-programming/online-compiler/)
+* [Erros comuns aprendendo C](https://www.ic.unicamp.br/~rafael/cursos/1s2016/mc102/erros_comuns.html)
 * [Data Structure Animations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 * [xSortLab](https://math.hws.edu/eck/js/sorting/xSortLab.html)
 * [Sorting Animation](https://www.toptal.com/developers/sorting-algorithms)
