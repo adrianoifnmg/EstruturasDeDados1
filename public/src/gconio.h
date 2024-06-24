@@ -4,9 +4,9 @@
  * A replacement library for Borland C-specific conio.h functions for gcc
  * and MSVC.
  *
- * Implemented functions: clrscr, delay, delline, gotoxy, kader,
- *                        lijnh, lijnv, textbackground, textcolor,
- *                        getch, kbhit, getche, setcursortype.
+ * Implemented functions: clrscr, clreol, gotoxy, delay, box,
+ *                        lineh, linev, textbackground, textcolor,
+ *                        getch, kbhit, getche, resetcolor.
  *
  *-------------------------------------------------------------------------- 
  * TO INSTALL [LINUX]:
@@ -72,16 +72,17 @@
 #define CYAN 3
 #define RED 4
 #define MAGENTA 5
+#define PURPLE 5
 #define BROWN 6
-#define LIGHTGRAY 7
+#define YELLOW 6
+#define WHITE 7
+/*#define LIGHTGRAY 7
 #define DARKGRAY 8
 #define LIGHTBLUE 9
 #define LIGHTGREEN 10
 #define LIGHTCYAN 11
 #define LIGHTRED 12
-#define LIGHTMAGENTA 13
-#define YELLOW 6
-#define WHITE 7
+#define LIGHTMAGENTA 13*/
 #endif
 
 #ifdef __cplusplus
@@ -90,7 +91,7 @@ extern "C" {
 
 
 /**** PROTOTYPES ***************************/
-void delline (void);
+void clreol (void);
 void clrscr (void);
 void delay (unsigned long milliseconds);
 int get_screen_rows (void);
@@ -102,6 +103,7 @@ void lineh (int x, int y, int length, int character);
 void linev (int x, int y, int length, int character);
 void gotoxy (int x, int y);
 #ifdef __GNUC__
+void resetcolor (void);
 void flushall (void);
 int getch (void);
 int kbhit(char *key);
@@ -178,7 +180,7 @@ int getch (void)
 {
     int kbdinput;
     struct termios t_orig, t_new;
-
+	setbuf(stdin,NULL);
     // We need to change terminal settings so getchar() does't
     // require a CR at the end. Also disable local echo.
     tcgetattr(0, &t_orig);
@@ -343,17 +345,18 @@ void clrscr (void)
     int count;
     for (count = 0; count < get_screen_rows(); count++)
     {
-        gotoxy (0, count);
-        delline();
+        gotoxy (1, count+1);
+        printf ("\r\033[K\r");
     }
-    gotoxy (0,0);
+    gotoxy (1,1);
 }
 
 
-void delline () 
+void clreol() 
 {
 #ifdef __GNUC__
-    printf ("\r\033[K\r");
+    printf ("\033[2K\r");
+    //printf ("\r\033[K\r");
 #endif
 #ifdef WIN32
     int xcount, ycur;
@@ -495,6 +498,13 @@ void textbackground (int newcolor)
     SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), (WORD) (__gconio_h_ansi_fg | __gconio_h_ansi_bg));
 #endif
 }
+
+#ifdef __GNUC__
+void resetcolor ()
+{
+    printf ("\x1b[0m");
+}
+#endif
 
 #ifdef WIN32
 int wherex (void)
