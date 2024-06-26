@@ -4,8 +4,8 @@
  * A replacement library for Borland C-specific conio.h functions for gcc
  * and MSVC.
  *
- * Implemented functions: clrscr, clreol, gotoxy, delay, box,
- *                        lineh, linev, textbackground, textcolor,
+ * Implemented functions: clrscr, clreol, cursor, delay, gotoxy, box,
+ *                        lineh, linev, textbackground, textcolor, 
  *                        getch, kbhit, getche, resetcolor.
  *
  *-------------------------------------------------------------------------- 
@@ -35,6 +35,8 @@
  *
  * History:
  * v0.6:  - Added function: kbhit(char* key). Author: MSc. Adriano Antunes Prates 
+          - Added function: cursor(int i). Author: MSc. Adriano Antunes Prates 
+          - Added function: resetcolor(). Author: MSc. Adriano Antunes Prates 
  * v0.5:  - gconio.h should now be compatible with MSVC!
  *        - Rewrote clrscr, lineh, linev functions to evade ANSI codes.
  *        - Added wherex, wherey, setcursortype functions (MSVC only).
@@ -108,8 +110,9 @@ void flushall (void);
 int getch (void);
 int kbhit(char *key);
 int getche (void);
-char *strlwr (char *text);
-char *strupr (char *text);
+void cursor(int i);
+void strlwr (char *text);
+void strupr (char *text);
 #endif
 #ifdef WIN32
 int wherex (void);
@@ -246,28 +249,24 @@ int getche (void)
 #endif
 
 #ifdef __GNUC__
-char *strlwr (char *text)
+void strlwr (char *text)
 {
-    char *origtext = text;
     while (*text != '\0')
     {
       if ((*text > 64) && (*text < 91)) *text += 32;
       text++;
     }
-    return (origtext);
 }
 #endif
 
 #ifdef __GNUC__
-char *strupr (char *text)
+void strupr (char *text)
 {
-    char *origtext = text;
     while (*text != '\0')
     {
       if ((*text > 96) && (*text < 123)) *text -= 32;
       text++;
     }
-    return (origtext);
 }
 #endif
 
@@ -450,6 +449,15 @@ void box (int x, int y, int length, int height, int type)
     }
 
 }
+
+#ifdef __GNUC__
+void cursor(int i){
+    if(i)
+        printf("\e[?25h");
+    else
+        printf("\e[?25l");
+}
+#endif
 
 void textcolor (int newcolor)
 {
