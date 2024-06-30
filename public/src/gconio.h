@@ -172,7 +172,8 @@ void delay (unsigned long milliseconds)
 #ifdef __GNUC__
 void flushall (void)
 {
-    fflush(stdin);
+    char ch;
+    while((ch = getchar())!='\n' && ch!=EOF);
     fflush(stdout);
     fflush(stderr);
 }
