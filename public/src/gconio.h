@@ -183,7 +183,7 @@ int getch (void)
 {
     int kbdinput;
     struct termios t_orig, t_new;
-	while(getchar()!='\n');
+    setbuf(stdin,NULL);
     // We need to change terminal settings so getchar() does't
     // require a CR at the end. Also disable local echo.
     tcgetattr(0, &t_orig);
