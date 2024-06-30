@@ -4,9 +4,9 @@
  * A replacement library for Borland C-specific conio.h functions for gcc
  * and MSVC.
  *
- * Implemented functions: clrscr, clreol, cursor, delay, gotoxy, box,
- *                        lineh, linev, textbackground, textcolor, 
- *                        getch, kbhit, getche, resetcolor.
+ * Implemented functions: clrscr, clreol, cursor, delay, gotoxy, 
+ *                        textbackground, textcolor, resetcolor, flushall, 
+ *                        getch, kbhit, getche, box, lineh, linev.
  *
  *-------------------------------------------------------------------------- 
  * TO INSTALL [LINUX]:
@@ -35,8 +35,9 @@
  *
  * History:
  * v0.6:  - Added function: kbhit(char* key). Author: MSc. Adriano Antunes Prates 
-          - Added function: cursor(int i). Author: MSc. Adriano Antunes Prates 
-          - Added function: resetcolor(). Author: MSc. Adriano Antunes Prates 
+ *        - Added function: cursor(int i). Author: MSc. Adriano Antunes Prates 
+ *        - Added function: resetcolor(). Author: MSc. Adriano Antunes Prates 
+ *        - Rewrote function: flushall(). Author: MSc. Adriano Antunes Prates
  * v0.5:  - gconio.h should now be compatible with MSVC!
  *        - Rewrote clrscr, lineh, linev functions to evade ANSI codes.
  *        - Added wherex, wherey, setcursortype functions (MSVC only).
@@ -340,6 +341,7 @@ int get_screen_rows (void)
 #endif
 }
 
+#ifdef __GNUC__
 void clrscr (void) 
 {
     int count;
@@ -350,7 +352,7 @@ void clrscr (void)
     }
     gotoxy (1,1);
 }
-
+#endif
 
 void clreol() 
 {
