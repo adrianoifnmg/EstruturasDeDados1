@@ -25,29 +25,29 @@
 #include <string.h>
 #include <time.h>
 
-//'datetime' is an user-defined type that contains the date and time information.
+//'Datetime' is an user-defined type that contains the date and time information.
 //see all atributes bellow...
-typedef struct _dt_ datetime;
+typedef struct _dt_ Datetime;
 
 //Gets a 'datetime' struct with the current date and time.
-datetime dt_now(); 
+Datetime dt_now(); 
 
 //Creates and returns a 'datetime' struct with the respective arguments sent.
 //The str string recognizes the following characters: "dmyhns"
 //You can send any sub-group of these characters and in any order, followed by their values.
-datetime dt_create(const char *str,...); 
+Datetime dt_create(const char *str,...); 
 
 //Gets a 'datetime' struct with date and time randomly generated (on the current year).
-datetime dt_rand_date();
+Datetime dt_rand_date();
 
 //Gets a 'datetime' struct with only time randomly generated (on the current day).
-datetime dt_rand_time();
+Datetime dt_rand_time();
 
 //Gets a 'datetime' struct with date and time randomly generated (for the least Y years).
-datetime dt_rand_birth(int Y);
+Datetime dt_rand_birth(int Y);
 
 //Print a 'datetime' struct in format "DD/MM/YYYY HH:MM:SS"
-void dt_print(datetime dt);
+void dt_print(Datetime dt);
 
 typedef struct _dt_{
     int sec;     /* seconds,  range 0 to 59 */
@@ -59,11 +59,11 @@ typedef struct _dt_{
     int wday;    /* day of the week, range 0 to 6  */
     int yday;    /* day in the year, range 0 to 365 */
     int isdst;   /* daylight saving time */
-}datetime;
+}Datetime;
 
-datetime __make_datetime(time_t convert){
+Datetime __make_datetime(time_t convert){
     struct tm *info = localtime(&convert);
-    datetime dt;
+    Datetime dt;
     dt.sec = info->tm_sec;
     dt.min = info->tm_min;
     dt.hour = info->tm_hour;
@@ -76,12 +76,12 @@ datetime __make_datetime(time_t convert){
     return dt;
 }
 
-datetime dt_now(){
+Datetime dt_now(){
     time_t now = time(NULL);
     return __make_datetime(now);
 }
 
-datetime dt_create(const char *str,...){
+Datetime dt_create(const char *str,...){
 	int args_values[] = {-1,-1,-1,-1,-1,-1};
 	int order_values[] = {-1,-1,-1,-1,-1,-1};
 	int qt_args = strlen(str);
@@ -133,7 +133,7 @@ datetime dt_create(const char *str,...){
 	return __make_datetime(temp);
 }
 
-datetime dt_rand_date(){
+Datetime dt_rand_date(){
     time_t now = time(NULL);
     struct tm *day = localtime(&now);
     //set first time as 00:00:00
@@ -152,7 +152,7 @@ datetime dt_rand_date(){
 	return __make_datetime(random_date);
 }
 
-datetime dt_rand_time(){
+Datetime dt_rand_time(){
     time_t now = time(NULL);
     struct tm *time_now = localtime(&now);
     //set first time as 00:00:00
@@ -166,7 +166,7 @@ datetime dt_rand_time(){
 	return __make_datetime(random_time);
 }
 
-datetime dt_rand_birth(int y){
+Datetime dt_rand_birth(int y){
     time_t now = time(NULL);
     struct tm *day = localtime(&now);
     //set first time as 00:00:00
@@ -180,7 +180,7 @@ datetime dt_rand_birth(int y){
 	return __make_datetime(random_date);
 }
 
-void dt_print(datetime dt){
+void dt_print(Datetime dt){
 	printf("%02d/%02d/%04d %02d:%02d:%02d",
 		dt.day,
 		dt.mon,
