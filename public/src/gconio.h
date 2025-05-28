@@ -376,7 +376,7 @@ void gotoxy (int x, int y)
     if ( (x <= get_screen_columns()) && (y <= get_screen_rows()) )
         printf("\033[%d;%dH", y, x);
     else
-        return -1;
+        return;
 #endif
 #ifdef WIN32
     COORD cxy = { x, y };
@@ -477,7 +477,7 @@ void textcolor (int newcolor)
         case 5:  __gconio_h_ansi_fg = 35; break; // magenta
         case 6:  __gconio_h_ansi_fg = 33; break; // brown
         case 7:  __gconio_h_ansi_fg = 37; break; // gray
-	default: return -1;
+		default: return;
     }
     printf ("\033[%d;%d;%dm", __gconio_h_ansi_attr, __gconio_h_ansi_fg, __gconio_h_ansi_bg);
 #endif
@@ -500,7 +500,7 @@ void textbackground (int newcolor)
         case 5:  __gconio_h_ansi_bg = 45; break;
         case 6:  __gconio_h_ansi_bg = 43; break;
         case 7:  __gconio_h_ansi_bg = 47; break;
-        default: return -1;
+        default: return;
     }
     printf ("\033[%d;%d;%dm", __gconio_h_ansi_attr, __gconio_h_ansi_fg, __gconio_h_ansi_bg);
 #endif
