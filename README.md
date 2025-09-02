@@ -8,8 +8,7 @@
 )](https://calendar.google.com/calendar/embed?src=1kcpaqfkjqjk7mj943baespn10@group.calendar.google.com&src=hhtmsj9epvmqsdpn27sfolp688@group.calendar.google.com&ctz=America%2FSao_Paulo) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
 )](#link-links-úteis)
 
-> **Objetivo Geral:** Promover o desenvolvimento da abstração, raciocínio lógico e criatividade aplicados à concepção de algoritmos e estruturas de dados eficientes para resolução de problemas computacionais...
-> > _**Estruturas de Dados** não é sobre linguagem (toda linguagem é apenas uma ferramenta). ED é sobre bases e fundamentos de programação. Da mesma forma que qualquer prédio só se sustenta com uma base sólida, essa disciplina é base essencial para que desenvolvedores compreendam não apenas o ato de codificar, mas também os detalhes intrínsecos ao funcionamento de softwares, tanto em baixo quanto em alto nível. Que sabem projetar e construir soluções robustas e eficientes (independente de linguagem), e para que não se tornem apenas meros "digitadores ou copiadores de código"._
+> _**Estruturas de Dados** não é sobre linguagem (toda linguagem é apenas uma ferramenta). ED é sobre bases e fundamentos de programação, é sobre lógica e raciocínio computacional. Da mesma forma que um prédio só se sustenta com uma base sólida, essa disciplina é base essencial para que desenvolvedores compreendam não apenas o ato de codificar, mas também os mecanismos internos que regem o funcionamento de softwares, tanto em alto quanto em baixo nível. É esse conhecimento que permite projetar e construir soluções robustas e eficientes (independente de linguagem), evitando que se tornem meros "digitadores" ou "copiadores de código"._
 
 <p align="center"><a href="#"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></a></p>
 
