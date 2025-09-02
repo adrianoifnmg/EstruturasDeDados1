@@ -9,6 +9,8 @@
 )](#link-links-úteis)
 
 > **Objetivo Geral:** Promover o desenvolvimento da abstração, raciocínio lógico e criatividade aplicados à concepção de algoritmos e estruturas de dados eficientes para resolução de problemas computacionais...
+> > _**Estruturas de Dados** não é sobre linguagem (toda linguagem é apenas uma ferramenta). ED é sobre bases e fundamentos de programação. Da mesma forma que qualquer prédio só se sustenta com uma base sólida, essa disciplina é base essencial para que desenvolvedores compreendam não apenas o ato de codificar, mas também detalhes intrínsecos ao funcionamento de softwares, tanto em baixo quanto em alto nível. Que sabem projetar e construir soluções robustas e eficientes (independente de linguagem), e para que não se tornem apenas meros "digitadores ou copiadores de código"._
+
 <p align="center"><a href="#"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></a></p>
 
 ## :dart: Ementa
