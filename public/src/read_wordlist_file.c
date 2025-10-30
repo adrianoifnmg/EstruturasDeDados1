@@ -2,33 +2,28 @@
 #include <stdlib.h> 
 #include <time.h> 
 
-int main(int count_args, char** args){
+int main(){
 	srand(time(NULL));
 	
-	if(count_args != 2){
-		printf("Execute:\n%s   wordlist.txt\n",args[0]);
-		return 0;
-	}
-	
-	FILE* arq = fopen(args[1],"r");
+	FILE* arq = fopen("wordlist.txt","r");
 	if(!arq){
 		printf("Arquivo não existente\n");
 		return 0;
 	}
 
-	char nomes[50][100];
+	char words[500][100];
 	int c = 0;
 		
 	while(1){
-		fscanf(arq," %[^\n]s",nomes[c]);
+		fscanf(arq," %[^\n]s",words[c]);
 		if(feof(arq))
 			break;
-		//printf("Nome: %s\n",nomes[c]);		
+		//printf("Nome: %s\n",words[c]);		
 		c++;
 	}
 
 	do{
-		printf("Nome: %s\n",nomes[rand()%c]);
+		printf("Word: %s\n",words[rand()%c]);
 		getchar();
 	}while(1);
 
