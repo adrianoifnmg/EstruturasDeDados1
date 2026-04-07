@@ -8,7 +8,7 @@
 )](https://calendar.google.com/calendar/embed?src=1kcpaqfkjqjk7mj943baespn10@group.calendar.google.com&src=hhtmsj9epvmqsdpn27sfolp688@group.calendar.google.com&ctz=America%2FSao_Paulo) [![image](https://img.shields.io/badge/Links_Úteis-d88200?style=for-the-badge&logo=SitePoint&logoColor=white
 )](#link-links-úteis)
 
-> _**Estruturas de Dados** não é sobre linguagem (linguagens são apenas ferramentas). ED é sobre bases e fundamentos de programação, é sobre lógica e raciocínio computacional. Da mesma forma que prédios só se sustentam com bases sólidas, essa disciplina é base essencial para que desenvolvedores compreendam não apenas o ato de codificar, mas também os mecanismos internos que regem o funcionamento de softwares, tanto em alto quanto em baixo nível. É esse conhecimento que permite analisar, projetar e construir soluções robustas e eficientes (independente de linguagem), evitando que se tornem meros "digitadores" ou "copiadores de código"._
+> _**Estruturas de Dados** não é sobre linguagem (linguagens são apenas ferramentas). ED é sobre bases e fundamentos de programação, é sobre lógica e raciocínio computacional. Assim como prédios, que só se sustentam com bases sólidas, essa disciplina é uma base essencial para desenvolvedores que compreendem não apenas a codificação, mas também os mecanismos internos que regem o funcionamento de softwares, tanto em alto quanto em baixo nível. É esse conhecimento que permite analisar, projetar e construir soluções robustas e eficientes (independente de linguagem), evitando que se tornem apenas  "digitadores" ou "copiadores de código"._
 
 <p align="center"><a href="#"><img src="https://github.com/adrianoifnmg/adrianoifnmg/blob/main/icons/cat-typing.gif"></a></p>
 
